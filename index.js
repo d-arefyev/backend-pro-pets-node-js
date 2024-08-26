@@ -5,7 +5,9 @@ import path from 'path'
 import url from 'url'
 import express from 'express'
 import cors from 'cors'
-
+import dotenv from 'dotenv';
+dotenv.config();
+console.log(process.env.CITY);
 // NodeJS
 // const server = createServer((request, response) => {
 //     response.statusCode = 200;
